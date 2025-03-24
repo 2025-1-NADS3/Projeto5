@@ -10,7 +10,10 @@ Projeto 5
 
 ## BooKCap
 
-## Integrantes: <a href="https://www.linkedin.com/in/ana-clara-torres-musso-/">Ana Clara </a>, <a href="https://www.linkedin.com/in/matheus-santos-morais/">Matheus Santos</a>, <a href="https://www.linkedin.com/in/rodrigo-cruz-b3885116a/">Rodrigo Cruz Cruz</a>, <a href="https://www.linkedin.com/in/vinicius-kingo-1b769030a/">Vinicius Kingo</a>
+## Integrantes: <a href="https://br.linkedin.com/in/lucca-brand%C3%A3o-821044243-/">Lucca Brandão </a>, <a href="https://br.linkedin.com/in/lucas-gomes-de-souza-526b1730a">Lucas Gomes de Souza</a>, <a href="https://www.linkedin.com/in/rodrigo-cruz-b3885116a/">Rodrigo Cruz Cruz</a>, <a href="https://www.linkedin.com/in/vinicius-kingo-1b769030a/">Vinicius Kingo</a>,  <a href="https://br.linkedin.com/in/murilo-de-alencar-lopes-55532524a">Murilo de Alencar Lopes</a>
+
+
+
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>
 
