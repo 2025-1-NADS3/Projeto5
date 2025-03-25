@@ -19,7 +19,7 @@
 ## Home do projeto
 
 <p align="center">
-<img src="https://github.com/2024-2-NADS2/Projeto8/blob/main/imagens/imagem_2024-11-18_224803020.png" alt="Home- BooKCap" border="0">
+<img src="https://github.com/2025-1-NADS3/Projeto5/blob/main/imagens/git.png" alt="Home- BooKCap" border="0">
 </p>
 
 
