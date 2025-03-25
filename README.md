@@ -15,18 +15,18 @@ Projeto 5
 
 
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>
+## Professores Orientadores: <a href="https://br.linkedin.com/in/vheltai">Vinicius Heltai</a>
 
 ## Home do projeto
 
 <p align="center">
-<img src="https://github.com/2024-2-NADS2/Projeto8/blob/main/imagens/imagem_2024-11-18_224803020.png" alt="Home- DoaTech" border="0">
+<img src="https://github.com/2024-2-NADS2/Projeto8/blob/main/imagens/imagem_2024-11-18_224803020.png" alt="Home- BooKCap" border="0">
 </p>
 
 
 
 
-O nosso projeto foca em desenvolver um site de doações, com ONGs voltadas a ajudarem os animais, pessoas com fome e moradores de rua.
+O nosso app foca em facilitar a comunicação entre aluno e faculdade, visando estimular os alunos a utilizarem com mais frequência a biblioteca.
 <br><br>
 
 
@@ -54,12 +54,9 @@ Há também 3 pastas que seguem da seguinte forma:
 <b>src</b>: Pasta que contém o código fonte.
 
 ## 🖥️ Requisitos do sistema 
-- ``HTML``
-- ``CSS``
-- ``JavaScript``
-- ``React``
-- ``Node.js``
-- ``MySQL``
+- ``AndroidStudio``
+- ``Java``
+- ``Kotlin``
 
 ## 💻 Configuração para Desenvolvimento
 
@@ -79,29 +76,8 @@ Coloque código do prompt de comnando se for necessário
 
 A cada atualização os detalhes devem ser lançados aqui.
 
-* 0.2.1 - 30/09/2024
-    * MUDANÇA: Atualização do planejamento para a entrega dia 02/09/2024.
-* 0.2.0 - 23/09/2024
-    * Iniciação do figma no trabalho junto com react.
-* 0.1.1 - 19/08/2024
-    * Separação de tarefas a serem executadas pelos membros do grupo.
-* 0.1.0 - 12/08/2024
-    * Realização de pesquisas sobre as ONG's que iremos trabalhar em parceria.
-* 0.0.1 - 05/08/2024
-    * Debate sobre tema do grupo e foco do mesmo.
-* 0.9.9 - 10/10/2024
-   * CONCLUÍDO: Parceria com a FECAP SOCIAL (Rodrigo)
-* 0.10.10 - 19/10/2024
-   * CONCLUÍDO: Criar o Banco de Dados (Matheus)
-* 0.11.11 - 23/10/2024
-   * CONCLUÍDO: Incluir um sistema de autenticação (Login e Senha) (Matheus)
-* 0.12.12 - 25/10/2024
-   * CONCLUÍDO: Diagrama de Classe (Rodrigo)
-* 0.13.13 - 27/10/2024
-   * CONCLUÍDO: Fazer as Telas restantes em React para Entrega 3 ( Ana )
-* 0.14.14 - 06/11/2024
-   * CONCLUÍDO: Terminar o site em React para Entrega 4 (Vinicius)
-* 0.15.15 - 18/11/2024
+* 0.2.1 - 24/03/2025
+    * Primeira entrega, contendo figma, storyboard, tela funcional, git, norma 25010 e diagrama de processo de qualidade.
 
 
 
