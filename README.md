@@ -50,7 +50,7 @@ A pasta raiz contem dois arquivos que devem ser alterados:
 Há também 3 pastas que seguem da seguinte forma:
 
 <b>documentos</b>: Toda a documentação estará nesta pasta.
-<b>imagens</b>: Imagens do sistema
+<b>imagens</b>: Imagens do aplicativo, contendo logo e imagens utilizadas nas telas.
 <b>src</b>: Pasta que contém o código fonte.
 
 ## 🖥️ Requisitos do sistema 
