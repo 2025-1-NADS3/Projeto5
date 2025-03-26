@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF"
+    android:padding="32dp">
+
+    <!-- Logo FECAP -->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fecap_logo"
+        android:contentDescription="Logo FECAP"
+        android:layout_marginBottom="48dp" />
+
+    <!-- Botões -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBiblioteca"
+        style="@style/FlatButton"
+        android:text="Biblioteca Virtual" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnHistorico"
+        style="@style/FlatButton"
+        android:text="Histórico" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnExtrato"
+        style="@style/FlatButton"
+        android:text="Extrato" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnFeedback"
+        style="@style/FlatButton"
+        android:text="Feedbacks" />
+
+</LinearLayout>
