@@ -1,59 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#FFFFFF">
+    android:layout_height="match_parent">
 
-    <!-- Topo verde com logo e título -->
     <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="#006400"
         android:padding="16dp"
         android:gravity="center_horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Biblioteca Virtual"
-            android:textColor="#FFFFFF"
-            android:textSize="22sp"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:src="@drawable/fecap_logo"
-            android:contentDescription="Logo da FECAP"
-            android:layout_marginTop="8dp" />
-    </LinearLayout>
-
-    <!-- Conteúdo em Scroll -->
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        <!-- Cabeçalho -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:background="#006400"
             android:padding="16dp"
-            android:gravity="center_horizontal">
+            android:orientation="vertical"
+            android:gravity="center">
 
-            <!-- Grid de Livros -->
-            <GridLayout
-                android:id="@+id/gridLivros"
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:columnCount="3"
-                android:alignmentMode="alignMargins"
-                android:rowOrderPreserved="false"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="32dp"
-                android:useDefaultMargins="true" />
+                android:text="Biblioteca Virtual"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:src="@drawable/fecap_logo_branco"
+                android:layout_marginTop="8dp"
+                android:contentDescription="Logo FECAP" />
         </LinearLayout>
-    </ScrollView>
-</LinearLayout>
+
+        <!-- Grade de livros -->
+        <GridLayout
+            android:id="@+id/gridLivros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:paddingTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false">
+
+            <!-- Livro 1 com imagem e texto fixo -->
+            <LinearLayout
+                android:id="@+id/livro1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/menino_do_pijama_listrado"
+                    android:contentDescription="Capa Livro 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="O Menino do Pijama"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:paddingTop="4dp" />
+            </LinearLayout>
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

@@ -11,14 +11,15 @@
         android:layout_width="150dp"
         android:layout_height="220dp"
         android:layout_gravity="center"
-        android:src="@android:drawable/ic_menu_gallery"
-        android:contentDescription="Capa do livro" />
+        android:contentDescription="Capa do livro"
+        android:src="@drawable/menino_do_pijama_listrado"
+        />
 
     <TextView
         android:id="@+id/tituloLivro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Título do Livro"
+        android:text="Menino do Pijama Listrado"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginTop="16dp" />

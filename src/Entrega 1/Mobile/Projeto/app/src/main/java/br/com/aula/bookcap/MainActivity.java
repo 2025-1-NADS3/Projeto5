@@ -11,8 +11,6 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.appcompat.app.AppCompatDelegate;
 
-
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -23,18 +21,41 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-        // Aplica padding automático com base na área de sistema
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
 
-        // Botão que leva à tela da biblioteca
+        
         Button btnBiblioteca = findViewById(R.id.btnBiblioteca);
         btnBiblioteca.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, activity_biblioteca.class);
+            Intent intent = new Intent(MainActivity.this, ActivityBiblioteca.class);
             startActivity(intent);
         });
+
+
+        Button btnHistorico = findViewById(R.id.btnHistorico);
+        btnHistorico.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ActivityHistorico.class);
+            startActivity(intent);
+        });
+
+
+        Button btnExtrato = findViewById(R.id.btnExtrato);
+        btnExtrato.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ActivityExtrato.class);
+            startActivity(intent);
+        });
+
+        Button btnFeedback = findViewById(R.id.btnFeedback);
+        btnFeedback.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ActivityFeedbacks.class);
+            startActivity(intent);
+        });
+
+
+
+
     }
 }

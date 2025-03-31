@@ -13,10 +13,19 @@
         android:theme="@style/Theme.Bookcap"
         tools:targetApi="31">
         <activity
-            android:name=".activity_livro_detalhe"
+            android:name=".ActivityFeedbacks"
             android:exported="false" />
         <activity
-            android:name=".activity_biblioteca"
+            android:name=".ActivityExtrato"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityHistorico"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityLivroDetalhe"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityBiblioteca"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
