@@ -46,7 +46,7 @@ O nosso app foca em facilitar a comunicação entre aluno e faculdade, visando a
 - ``AndroidStudio``
 - ``Java``
 - ``Kotlin``
-- ``api do  mercado livre``
+- ``api do  mercado pago``
 - ``sqlite``
 
 
