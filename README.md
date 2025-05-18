@@ -9,7 +9,7 @@
 
 ## BooKCap
 
-## Integrantes: <a href="https://br.linkedin.com/in/lucca-brand%C3%A3o-821044243-/">Lucca Brandão </a>, <a href="https://br.linkedin.com/in/lucas-gomes-de-souza-526b1730a">Lucas Gomes de Souza</a>, <a href="https://www.linkedin.com/in/rodrigo-cruz-b3885116a/">Rodrigo Cruz Cruz</a>, <a href="https://www.linkedin.com/in/vinicius-kingo-1b769030a/">Vinicius Kingo</a>,  <a href="https://br.linkedin.com/in/murilo-de-alencar-lopes-55532524a">Murilo de Alencar Lopes</a>
+## Integrantes: <a href="https://br.linkedin.com/in/lucca-brand%C3%A3o-821044243-/">Lucca Brandão </a>, <a href="https://br.linkedin.com/in/lucas-gomes-de-souza-526b1730a">Lucas Gomes de Souza</a>, <a href="https://www.linkedin.com/in/rodrigo-cruz-b3885116a/">Rodrigo Cruz </a>, <a href="https://www.linkedin.com/in/vinicius-kingo-1b769030a/">Vinicius Kingo</a>,  <a href="https://br.linkedin.com/in/murilo-de-alencar-lopes-55532524a">Murilo de Alencar Lopes</a>
 
 
 
@@ -18,65 +18,97 @@
 
 ## Home do projeto
 
-<p align="center">
-<img src="https://github.com/2025-1-NADS3/Projeto5/blob/main/imagens/git.png" alt="Home- BooKCap" border="0">
-</p>
+![facul_telas](https://github.com/user-attachments/assets/f4a25647-80a6-4033-886a-2f2a5b2d025f)
 
 
-
-
-O nosso app foca em facilitar a comunicação entre aluno e faculdade, visando estimular os alunos a utilizarem com mais frequência a biblioteca.
+O nosso app foca em facilitar a comunicação entre aluno e faculdade, visando aumentar o número de livros de dentro da faculdade, já que o número de leitores  irá aumentar com a facilidade que o aplicativo nos traz.
 <br><br>
 
 
 ## 🛠 Estrutura de pastas
 
--Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
-|readme.md<br>
+📂|-->BookCap_app/Projeto<br> Contém o resultado final do nosso trabalho, o aplicativo completo.
 
-A pasta raiz contem dois arquivos que devem ser alterados:
+📂<b>documentos</b>: Toda a documentação estará nesta pasta, como análise e planejamento de requisitos.
 
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
+📂<b>entrega2</b>: Pasta que contém a segunda entrega
 
-Há também 3 pastas que seguem da seguinte forma:
+📂<b>figma</b>: Pasta que contém a nossa primeira ideia de layout realizado no dia 25/03 com auxílio do Professor Chico.
 
-<b>documentos</b>: Toda a documentação estará nesta pasta.
-<b>imagens</b>: Imagens do aplicativo, contendo logo e imagens utilizadas nas telas.
-<b>src</b>: Pasta que contém o código fonte.
+📂<b>imagens</b>: Imagens do aplicativo, contendo logo e imagens utilizadas nas telas.
+
+📂<b>src</b>: Pasta que contém a primeira entrega
+
+
+
 
 ## 🖥️ Requisitos do sistema 
 - ``AndroidStudio``
 - ``Java``
 - ``Kotlin``
+- ``api do  mercado livre``
+- ``sqlite``
+
 
 ## 💻 Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+# 📱 Guia de Instalação e Execução do Projeto Android
 
-Para abrir este projeto você necessita das seguintes ferramentas:
+Este guia ajudará você a configurar o ambiente de desenvolvimento Android e executar o projeto corretamente.
 
--<a href="https://godotengine.org/download">GODOT</a>
+---
 
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
+## 🛒 1. Instale o Android Studio
+
+Baixe e instale a versão mais recente do Android Studio de acordo com o seu sistema operacional:
+
+🔗 [https://developer.android.com/studio](https://developer.android.com/studio)
+
+---
+
+## 🛠️ 2. Configuração Inicial
+
+Após a instalação:
+
+- Abra o Android Studio.
+- Siga o assistente de configuração para instalar o Android SDK e os demais componentes necessários.
+- Acesse o **SDK Manager** e verifique se todas as dependências estão atualizadas.
+
+---
+
+## 📲 3. Crie ou Importe o Projeto
+
+### Criar um novo projeto:
+- Clique em **"Start a new Android Studio project"**.
+- Configure as opções conforme os requisitos do seu aplicativo.
+
+### Importar este projeto:
+- Clique em **"Open an existing project"**.
+- Navegue até a pasta do repositório clonado e selecione-a.
+
+---
+
+## ▶️ 4. Execute o Projeto
+
+- Conecte um dispositivo físico via USB com a **depuração USB ativada**, ou
+- Configure um emulador Android pelo Android Studio.
+
+Depois, clique no botão **"Run"** (ícone ▶) para compilar e executar o aplicativo no dispositivo ou emulador.
+
+---
+
+Se tiver dúvidas, consulte a [documentação oficial do Android Studio](https://developer.android.com/studio) para mais detalhes.
 
 ## 🗃 Histórico de lançamentos
 
 A cada atualização os detalhes devem ser lançados aqui.
 
-* 0.2.1 - 24/03/2025
+* 24/03/2025
     * Primeira entrega, contendo figma, storyboard, tela funcional, git, norma 25010 e diagrama de processo de qualidade.
+* 22/04/2025
+    * Segunda entrega, contendo análise de usabilidade e os testes realizados no próprio app.
+*  17/05/2025
+    * Terceira entrega, contendo o aplicativo funcionando perfeitamente, com tela de cadastro, histórico, feedbacks e API para pagamento.
 
 
 
