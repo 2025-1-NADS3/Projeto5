@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9F4"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tituloLivro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Título do Livro"
+            android:textSize="33sp"
+            android:textStyle="bold"
+            android:textColor="#111111"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <ImageView
+            android:id="@+id/capaLivro"
+            android:layout_width="220dp"
+            android:layout_height="320dp"
+            android:contentDescription="Capa do Livro"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_background" />
+
+
+
+        <TextView
+            android:id="@+id/descricaoLivro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descrição do livro aparece aqui..."
+            android:textSize="18sp"
+            android:textColor="#444444"
+            android:background="@drawable/edit_text_background"
+            android:padding="20dp"
+            android:layout_marginBottom="30dp" />
+
+        <Button
+            android:id="@+id/btnVerDisponibilidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecione a Data"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/botao_verde_rounded"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="1dp" />
+
+
+        <Button
+            android:id="@+id/btnAlugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alugar"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/botao_escuro_rounded"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="20dp" />
+
+
+
+    </LinearLayout>
+</ScrollView>

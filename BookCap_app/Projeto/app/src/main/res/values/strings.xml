@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bookcap</string>
+    <string name="titulo_criar_conta">Criar Conta</string>
+    <string name="ra">RA</string>
+    <string name="email">Email institucional</string>
+    <string name="senha">Senha</string>
+    <string name="confirmar_senha">Confirmar Senha</string>
+    <string name="telefone">Telefone</string>
+    <string name="btn_criar_conta">Criar Conta</string>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainFeedbacks"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9F4"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feedbacks Recebidos"
+            android:textSize="33sp"
+            android:textStyle="bold"
+            android:textColor="#111111"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Feedback card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:strokeColor="#DDDDDD"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gabriel S."
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#111111" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="★★★★★"
+                    android:textColor="#FFD700"
+                    android:textSize="16sp"
+                    android:layout_marginTop="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ótima experiência na biblioteca virtual!"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="24dp" />
+
+        <!-- Envio de novo feedback -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Envie seu feedback"
+            android:textSize="33sp"
+            android:textStyle="bold"
+            android:textColor="#111111"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/inputNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Seu nome"
+            android:background="@drawable/edit_text_background"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp" />
+
+        <RatingBar
+            android:id="@+id/inputNota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1"
+            android:rating="5"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/inputComentario"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Digite seu comentário"
+            android:gravity="top"
+            android:background="@drawable/edit_text_background"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEnviarFeedback"
+            style="@style/FancyMaterialButton"
+            android:text="Enviar"
+            android:backgroundTint="#006400"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>
