@@ -45,7 +45,7 @@ O nosso app foca em facilitar a comunicação entre aluno e faculdade, visando a
 ## 🖥️ Requisitos do sistema 
 - ``AndroidStudio``
 - ``Java``
-- ``Kotlin``
+- ``Groovy``
 - ``api do  mercado pago``
 - ``sqlite``
 
